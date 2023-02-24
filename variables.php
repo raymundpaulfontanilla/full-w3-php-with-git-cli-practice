@@ -10,10 +10,30 @@
 
 <body>
     <?php
-        $txt = "Hello";
+        // PHP Variables
+        $txt = "Hello world!";
         $num1 = 5;
         $num2 = 10.5;
-        echo "$txt ".$num1 + $num2;
+
+        echo $txt;
+        echo "<br>";
+        echo $num1;
+        echo "<br>";
+        echo $num2;
+        echo "<br>";
+
+        // Output Variables
+        $txt2 = "W3schools.com";
+        echo "I love $txt2!";
+        echo "<br>";
+
+        $txt3 = "W3schools.com";
+        echo "I love " . $txt3 . "!";
+        echo "<br>";
+
+        $num3 = 5;
+        $num4 = 4;
+        echo $num3 + $num4;
     ?>
 </body>
 
