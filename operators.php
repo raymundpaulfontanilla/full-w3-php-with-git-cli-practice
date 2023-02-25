@@ -140,18 +140,22 @@
 
         // Increment / Decrement Operators
 
+        // Pre-increment
         $num43 = 10;
         echo ++$num43;
         echo "<br>";
 
+        // Post-increment
         $num44 = 10;
         echo $num44++;
         echo "<br>";
 
+        // Pre-decrement
         $num45 = 10;
         echo --$num45;
         echo "<br>";
 
+        // Post-decrement
         $num46 = 10;
         echo $num46--;
         echo "<br>";
