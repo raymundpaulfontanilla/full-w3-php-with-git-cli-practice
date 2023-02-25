@@ -41,8 +41,9 @@
         echo "<br>";
 
         // Loosely Type Language
-        function addNumbers($num1, $num2) {
-            return $num1 + $num2;
+        function addNumbers(int $num1, int $num2) {
+            // throws a non-numeric value encountered
+            return $num1 + $num2; //Coming back to PHP I concatenated two strings with + instead of . and got that error.
         }
         echo addNumbers(5, "5 days");
         echo "<br>";
