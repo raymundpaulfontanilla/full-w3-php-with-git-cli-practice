@@ -19,8 +19,8 @@
 
         $age = array("Peter" => "35", "Ben" => "37", "Joe" => "43");
 
-        foreach ($age as $value => $val) {
-            echo "$value = $val<br>";
+        foreach ($age as $name => $ageVal) {
+            echo "$name = $ageVal<br>";
         }
     ?>
 </body>
