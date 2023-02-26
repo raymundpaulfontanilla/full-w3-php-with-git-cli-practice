@@ -20,7 +20,7 @@
         <input type="submit">
     </form>
     <?php
-        $name = $email = $website = $comment = $gender = "";
+        $name = $email = $website = $comment = $gender = ""; // define variables and set to empty values
         
         if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $name = test_input($_POST['name']);
