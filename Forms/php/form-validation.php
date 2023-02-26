@@ -10,14 +10,14 @@
 
 <body>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
-        Name: <input type="text" name="name"><br>
-        E-mail: <input type="email" name="email"><br>
-        Website: <input type="text" name="website"><br>
-        Comment: <textarea name="comment" rows="5" cols="40"></textarea><br>
+        Name: <input type="text" name="name"><br><br>
+        E-mail: <input type="email" name="email"><br><br>
+        Website: <input type="text" name="website"><br><br>
+        Comment: <textarea name="comment" rows="5" cols="40"></textarea><br><br>
         Gender:
         <input type="radio" name="gender" value="female">Female
         <input type="radio" name="gender" value="male">Male
-        <input type="radio" name="gender" value="other">Other<br>
+        <input type="radio" name="gender" value="other">Other<br><br>
         <input type="submit">
     </form>
     <?php
