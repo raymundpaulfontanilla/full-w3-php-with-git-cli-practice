@@ -19,12 +19,15 @@
             function setName($name) {
                 $this -> name = $name;
             }
+            
             function setColor($color) {
                 $this -> color = $color;
             }
+
             function getName() {
                 return $this -> name;
             }
+            
             function getColor() {
                 return $this -> color;
             }
