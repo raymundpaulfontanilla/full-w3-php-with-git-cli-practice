@@ -26,15 +26,15 @@
             public $color2;
             public $weight2;
 
-            function setName($name2) {
+            function setName($name2) { // a public function (DEFAULT)
                 $this -> name2 = $name2;
             }
 
-            protected function setColor($color2) {
+            protected function setColor($color2) { // a protected function
                 $this -> color2 = $color2;
             }
 
-            private function setWeight($weight2) {
+            private function setWeight($weight2) { // a private function
                 $this -> weight2 = $weight2;
             }
         }
